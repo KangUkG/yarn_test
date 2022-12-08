@@ -34,11 +34,11 @@ jobs:
     - name: Install dependencies
       run: yarn
     - run: yarn build
-    - name: Run scripts in server
-      uses: appleboy/ssh-action@master
-      with:
-        password: ${{ secrets.PASSWORD }}
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USER_NAME }}
-        port: ${{ secrets.PORT }}
-        script: ${{ secrets.SCRIPT }}
+    # - name: Run scripts in server
+    #   uses: appleboy/ssh-action@master
+    #   with:
+    #     password: ${{ secrets.PASSWORD }}
+    #     host: ${{ secrets.HOST }}
+    #     username: ${{ secrets.USER_NAME }}
+    #     port: ${{ secrets.PORT }}
+    #     script: ${{ secrets.SCRIPT }}
