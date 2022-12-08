@@ -179,6 +179,11 @@ styled-jsx@5.1.0:
   dependencies:
     client-only "0.0.1"
 
+three@^0.147.0:
+  version "0.147.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.147.0.tgz#1974af9e8e0c1efb3a8561334d57c0b6c29a7951"
+  integrity sha512-LPTOslYQXFkmvceQjFTNnVVli2LaVF6C99Pv34fJypp8NbQLbTlu3KinZ0zURghS5zEehK+VQyvWuPZ/Sm8fzw==
+
 tslib@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
